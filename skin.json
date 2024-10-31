@@ -1,0 +1,27 @@
+{
+  "Steam-WebKit": "webkit.css",
+  "UseDefaultPatches": false,
+
+  "author": "Skav",
+  "description": "Dark Orange skin for Steam",
+  "name": "Orange",
+  "version": "1",
+
+  "github": {
+    "owner": "xerta555",
+    "repo_name": "Dark Orange skin for Steam"
+  },
+  
+  "funding": { 
+    "kofi": "saiyajink"
+  },
+  
+  "tags": [
+    "Dark",
+    "Orange",
+    "Customizable"
+  ],
+  
+  "header_image": "https://i.imgur.com/3mPRQUz.png",
+  "splash_image": "https://i.imgur.com/3mPRQUz.png"
+}

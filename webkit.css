@@ -1,0 +1,615 @@
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: transparent;
+    z-index: 12;
+    overflow: visible;
+}
+
+::-webkit-scrollbar-thumb {
+    width: 4px;
+    min-height: 32px;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    z-index: 12;
+    background-image: none;
+    background-color: rgb( 255, 165, 0);
+    background-clip: padding-box;
+    transition: background-color .32s ease-in-out;
+    // margin: 4px;
+    // min-width: 32px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb( 255, 165, 0);
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgb( 255, 165, 0);
+    background-color: rgb(67, 73, 83);
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-button
+{
+  background: rgb(48, 48, 48) !important;
+}
+
+
+.supernav_Arrow_25lBL.supernav_Disabled_2cO0H
+{
+  color: orange !important;
+}
+
+
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I .titlebarcontrols_Icon_34bQc,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk .titlebarcontrols_Icon_34bQc
+{
+  color: orange !important;
+}
+
+
+.titlebarcontrols_AnnouncementsButton_5wILZ:hover .titlebarcontrols_Icon_34bQc
+{
+  color: orange !important;
+}
+
+
+.titlebarcontrols_AnnouncementsButton_5wILZ.titlebarcontrols_Active_1oEwi,
+.titlebarcontrols_AnnouncementsButton_5wILZ.titlebarcontrols_Active_1oEwi:hover,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_WasNew_9YK5I:not(.titlebarcontrols_Disabled_1QQWj):hover,
+.titlebarcontrols_NotificationsButton_RtSv3.titlebarcontrols_NoNew_3qhGk:not(.titlebarcontrols_Disabled_1QQWj):hover,
+.titlebarcontrols_AccountMenu_3yD46:hover,
+.titlebarcontrols_GamepadUIToggle_3LKQ3:hover,
+.gamelistentry_Container_2-O4Z.gamelistentry_HoverOverlay_3cMVy,
+.menu_MenuWrapper_2Lu3d.supernav_SuperNavMenu_7A1hC.supernav_Selected_1gqEj_menu_MenuOpen_3rgV8>*:hover
+{
+  background-color: rgba(255, 127, 0, .2) !important;
+}
+
+
+.supernav_SuperNavMenu_7AlhC.supernav_Selected_1gqEj:not(.supernav_Disabled_2cO0H) .supernav_MenuButton_19axK::after
+{
+  background: orange !important;
+}
+
+
+.gamelistsectionheader_SectionName_2mZ8L
+{
+  color: orange !important;
+}
+
+
+/*Boutton reglages nouveautes*/
+[class*="libraryhomenewupdates_"]:hover .SVGIcon_Settings path
+{
+  fill: orange !important;
+}
+
+
+/*Fleche vers le bas pour nouveautes*/
+[class*=".libraryhomenewupdates_"]>div
+{
+  background-color: rgb(70, 46, 22) !important;
+  background-image: url"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAICAYAAAA1BOUGAAAACXBIWXMAAA7DAAAOwwHHb6hkAAAAXElEQVR42mP4v5Thv4Gdf9D///8ZYBjMB4qDGAZQBalQiVQo3wCmUhkkAMNgPlCcAcrRBWIxKFsMxIcZGwYVtIGaYgPlh8GMdUEz1gViLMKFxlAJY5gYA7IX0DEAFax5ZUONP3QAAAAASUVORK5CYII=") !important;
+  box-shadow: none !important;
+}
+
+
+/*AJOUTER UNE ETAGERE*/
+.libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8
+{
+  background-color: transparent !important;
+}
+
+
+/*Haut de la bilbiotheque*/
+[class*=".smartscrollcontainer_ScrollToTopButton_"] div
+{
+  background: linear-gradient(to bottom, rgba(255, 127, 0, .2) 0, #292d32 100%) !important;
+  box-shadow: 0 0 8px rgb(70, 46, 22) !important;
+}
+
+
+/*Pouces pour votes d un jeu*/
+[class*=".writereview_ReviewThumbButton_"]
+{
+  background: rgba(255, 127, 0, .2) !important;
+}
+
+
+/*Boutton Accueil*/
+.gamelisthome_Selected_eNLOx .gamelisthome_Label_3O48L
+{
+  color: orange !important;
+}
+
+
+
+/*A droite du boutton accueil - 4 carrés*/
+.gamelisthome_CollectionIcon_nC-pL .gamelisthome_CollectionIconBox_2tyaV
+{
+  background: orange !important;
+}
+
+
+
+/*A droite de {TRIE} sous Accueil*/
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m .gamelistdropdown_Arrow_15aGn polygon
+{
+  fill: orange !important;
+}
+
+
+
+/*Diverses icônes*/
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg path,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg line,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg polyline,
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_Filters_1PgAo .gamelistdropdown_CheckboxWithImage_3mzKd svg circle,
+.libraryhomeshowcases_AddShowcaseRow_3SkuN svg line,
+.libraryhomeshowcases_AddShowcaseRow_3SkuN svg circle
+{
+  stroke: orange !important;
+}
+
+
+/*Icones sauvegarde dans cloud/solo/prise en charge controleurs*/
+[class*=".appdetailsfeatureicon_Container_"] [class*=".appdetailsfeatureicon_Icon_"]
+{
+  color: orange !important;
+}
+
+
+/*Icône loupe*/
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchInput_12vo5 .DialogTextInputBase
+{
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAAEEfUpiAAAACXBIWXMAAAsSAAALEgHS3X78AAAC3UlEQVR42s1X6U8TURDfJn4gVeMRF0QU2ALlMNYa8Ir/XP8I2mWP1iNCovGIRo3HNwXFegExtgUKoigGE+J9JGqdad9rXnffvl3eGuImk03nzfz29+bNzJsqCu9JpVJ1ESsqo0rF7T9ndn+jq1WXkhn/1aBgAVnQpnmz6wu8N1FLTxoo73ItpssAPVdyuy18syhcBPE+eHFBy9Vc88hytu2Ui+SUnnzohF60tHN1A6cHG5SqwQtj4I7TYCXXatcNqEfR6L2OxrNmz0/QNTcYcEQl4h0DauQKFOxqkkYThceRe1ZoPGvGr/KMMFS8aNQByOKA6Euw+StzZs93EcBREUDB6L81PnxiVbgF3D/PuWzFPs6b3V+FMaCyYGnnsS4QsGx1fcL8IWsthKnqm/A+orJAMgBsHijhHwfqfrp/lAUr9gF023yTCGUyfWyxlnn9t+F3FGT72+yeMuqm9YP3hQAzIwfuemUaPeLX9r4zwhzwCZjGs6k+WKcBABRPgGd6Mg85/iMgQMwFACl6ORQDZnGLl/Nydu9pIQAUywUBi51kLSrMA3qU+fSRIn7xld1+FgprjSYVrxq5dfAkMzhFndimDdfPZ5RQlegEkapEFkS6lClImF6glIzea14lzZMhbPnTemICMxdPDNrdRdDHZQk0NCPeIk2LIIKlBCG59E8IPBg+vkSBkQToIj5A7fn04QLjc0+WQKcMCI887wL1I5DEsQOdC0bfzTDnCpVcQpxHmaHngQlgy0cnMlY2hSHwJtt2khkV1UAEZvTEOBnC/sDC1jAE8OohWBXRheg8Ag1H5doFmJgIQwBvYsR5mjn0eL1JuBmaw2/SkUsSH49iOdbGAW1NugxpPqC8tDvfg25QBLJkd4zhVcH2BdC3hm5ECIxTYZBGBERx7NyFgxE9StLwVWkCHImQfwcdIDv85j4k4EdkvQSkBlAOkchGEhBGZCMJuIgUjb4byv/w/AVl6xszMallTgAAAABJRU5ErkJggg==) !important;
+}
+
+
+
+/*Icône réglages/filtres pour recherche*/
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchButton_1TxHd svg path
+{
+  fill: orange !important;
+}
+
+
+
+/*Icône molette pour NOUVEAUTÉS*/
+.libraryhomenewupdates_SettingsButton_1eFe5 svg
+{
+  fill: orange !important;
+  color: orange !important;
+}
+
+
+
+/*Diviseur pour  barre à droite de NOUVEAUTÉS*/
+.pageablecontainer_HeaderPageControls_2ce8e .pageablecontainer_Rule_3kmsu
+{
+  background-color: transparent !important;
+}
+
+
+
+/*Flêches gauche/droite en face de NOUVEAUTÉS*/
+.SVGIcon_Button,
+polyline.Arrow1[stroke="#ffffff"]
+{
+  stroke: orange !important;
+}
+
+
+
+/*Fond titres jeux*/
+.libraryhomenewupdates_GameIconAndName_3_xMy
+{
+  background-color: transparent !important;
+}
+
+
+[class*=".contextmenu_contextMenu_"]*:hover
+{
+  background-color: rgba(255, 127, 0, .2) !important;
+}
+  
+
+
+
+/*IDEM précédent - au survol*/
+.gamelistentry_Container_2-O4Z:hover,
+.draganddrop_Draggable_2wgFG:hover
+{
+  background-color: rgba(255, 127, 0, .2) !important;
+}
+
+
+
+/*Boutton + pour AJOUTER UNE ÉTAGERE*/
+.SVGIcon_Button
+{
+  fill: orange !important;
+}
+
+
+
+/*Flêche pour JEUX RÉCENTS*/
+.libraryhomeshowcases_CollectionDropDown_1YdRd ._DialogInputContainer .DialogDropDown_Arrow svg
+{
+  fill: orange !important;
+}
+
+
+
+/*Traits à droite de JEUX RÉCENTS*/
+.libraryhomeshowcases_ShowcaseHeader_23Snl .libraryhomeshowcases_Rule_1PhK8
+{
+  background-color: rgb(70, 46, 22) !important;
+}
+
+
+
+/*Fond pour 1er jeu récent*/
+.appportrait_RecentGameFooter_2d1hS
+{
+  background-color: rgb(70, 46, 22) !important;
+}
+
+
+
+/*IDEM précédent pour boutton PLAY*/
+.appportrait_LibraryItemActionButton_3AjoL.appportrait_Play_1_Bo2:not(.appportrait_Disabled_1aml4),
+.appportrait_FeaturedCapsule_xp7A- .appportrait_LibraryItemActionButton_3AjoL,
+.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX,
+.appactionbutton_Green_3cI5T>.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ,
+.appactionbutton_ButtonChild_2AzIX,
+.appactionbutton_ButtonChild_2AzIX.appactionbutton_StreamingSelector_2q-gZ
+{
+  background: unset !important;
+}
+
+
+
+/*Icône pour DL un jeux*/
+line[stroke="#ffffff"],
+polyline[stroke="#ffffff"]
+{
+  stroke: orange !important;
+}
+
+
+
+/*Dans fiche d'un jeu - flêche à droite du boutton JOUER*/
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX svg line,
+:not(.appactionbutton_Disabled_1Pb6P)>.appactionbutton_ButtonChild_2AzIX svg polygon
+{
+  stroke: orange !important;
+  fill: orange !important;
+}
+
+
+
+/*Icône pour temps de jeu*/
+.appdetailsplaysection_Playtime_1aKeg .appdetailsplaysection_PlaytimeIcon_1GZdo svg polyline,
+.appdetailsplaysection_Playtime_1aKeg .appdetailsplaysection_PlaytimeIcon_1GZdo svg path,
+.appdetailsplaysection_Playtime_1aKeg .appdetailsplaysection_PlaytimeIcon_1GZdo svg circle
+{
+  stroke: orange !important;
+}
+
+
+
+/*Icône pour succès*/
+polyline[stroke="rgb(255, 255, 255, .4)"],
+path[stroke="rgba(255, 255, 255, .2)"],
+polygon[stroke="rgb(255, 255, 255, .4)"]
+{
+  stroke: orange !important;
+}
+
+
+
+/*Barre progression succès*/
+.appdetailsplaysection_DetailsProgressContainer_25YVD .appdetailsplaysection_DetailsProgressBar_1FnTq,
+.appdetailsachievementssection_AchievementProgressContainer_3ns91 .appdetailsachievementssection_AchievementProgress_3Rm36
+{
+  background-color: orange !important;
+}
+
+
+
+/*IDEM précédent - fond*/
+.appdetailssection_Highlight_38t1m
+{
+  background: none !important;
+}
+
+
+
+/*Icône gérer/+ détails/ajouter aux favoris*/
+.appdetailsplaysection_MenuButton_3qDWQ svg
+{
+  color: orange !important;
+}
+
+
+
+/*IDEM précédent - fond icônes*/
+.appdetailsplaysection_MenuButton_3qDWQ
+{
+  background-color: transparent !important;
+}
+
+
+
+/*IDEM précédent*/
+.appdetailsplaysection_MenuButton_3qDWQ svg circle, .appdetailsplaysection_MenuButton_3qDWQ svg polyline,
+.appdetailsplaysection_MenuButton_3qDWQ.appdetailsplaysection_FavoriteButton_21hXW svg path
+{
+  stroke: orange !important;
+}
+
+
+
+/*Dans fiche d'un jeu - sous contacts qui jouent à ce jeu - indication du temps passé sur le jeu par la personne*/
+.appdetailsfriendssection_AvatarAndLabel_1GCZA .appdetailsfriendssection_PlaytimeStatus_1xGH4
+{
+  color: orange !important;
+}
+
+
+
+/*IDEM précédent - fond*/
+.appdetailssection_AppDetailsSectionContainer_31ptF.appdetailssection_RightColumnSection_3KfxI
+{
+  background: none !important;
+}
+
+
+
+/*Fond jeu sélectionné sur partie gauche*/
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
+.gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z
+{
+  background-color: orange !important;
+  box-shadow: unset !important;
+}
+
+
+
+/*Quand scroll sur partie gauche - flêche pour remonter tout en haut*/
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z
+{
+  background-color: transparent !important;
+  border: 1px solid transparent !important;
+}
+
+
+
+/*IDEM précédent*/
+.gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow polyline
+{
+  stroke: orange !important;
+}
+
+
+
+/*Dites quelque chose à propos de ce jeu à vos contacts...*/
+.posttextentry_PostTextEntry_3x31A .posttextentry_PostTextEntryArea_1JlC2
+{
+  background: none !important;
+}
+
+
+
+/*machin sur fond bleu clair sur jeu réçent indiquant date*/
+.libraryhomenewupdates_PartnerEventRowCapsule_Container_B-vCd .libraryhomenewupdates_EventTimeSpan_3OSZu
+{
+  background-color: transparent !important;
+}
+
+
+
+/*DLs - téléchargements terminés au survol*/
+.downloads_SectionItem_1VNuY:hover,
+.downloads_SectionItem_1VNuY.downloads_Dragging_3-SbB
+{
+  background-color: rgba(255, 127, 0, .2) !important;
+}
+
+
+/*Boutton effacer les DLs terminés*/
+.downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5.DialogButton:enabled
+{
+  background-color: rgba(255, 127, 0, .2) !important;
+}
+
+
+/*Croix des DLs terminés*/
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:active,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover,
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled,
+/*Icône molette réglages*/
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:active,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
+.downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled
+{
+  background-color: transparent !important;
+}
+
+
+
+/*Graphe - trait DL actuel*/
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW
+{
+  stroke: orange !important;
+}
+
+
+/*IDEM précédent pour petit symbole*/
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg
+{
+  color: orange !important;
+}
+
+
+/*Graphe occupation actuel du stockage*/
+/*.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL,
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk*/
+{
+  color: orange !important;
+}
+
+
+/*IDEM précédent pour petit symbole*/
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4
+{
+  background-color: orange !important;
+}
+
+
+/*DLs - traits éparateurs*/
+.downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1
+{
+  background-color: orange !important;
+}
+
+
+/*Fond boutton PAUSE DLs*/
+.downloads_SectionItem_1VNuY.downloads_Active_IbePL .downloads_Button_3oavR.DialogButton:enabled
+{
+  background: unset !important;
+}
+
+
+
+/*Dans Téléchargements - NON PROGRAMMÉ*/
+.downloads_SectionJumpBar_mw7VZ
+{
+  background-color: rgb(48, 48, 48) !important;
+}
+
+
+/*Dans Téléchargements - Barres verticales DL*/
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarDownload_OS07N
+{
+  color: orange !important;
+}
+
+
+/*Dans Téléchargements - barre séparation téléchargement des infos de DL*/
+.downloads_TopBar_SEmVp
+{
+  background: linear-gradient(to right, orange, orange) !important;
+}
+
+
+/*Menu clic droit*/
+[class*=".contextmenu_contextMenu_"]>*:hover
+{
+  background-color: rgba(255, 127, 0, .2) !important;
+}
+
+
+
+p,
+a,
+b,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+span,
+div,
+td,
+li,
+label,
+string,
+text,
+th,
+textzone,
+strong,
+input,
+fonts,
+font,
+time,
+post,
+text-input,
+article,
+title,
+searchbar,
+em,
+icon,
+select,
+textarea,
+legend,
+dt,
+button,
+dd,
+header,
+list,
+body,
+NFO,
+small,
+chat,
+blockquote,
+caption,
+Link,
+link,
+summary,
+autocomplete,
+cite,
+i,
+.image__caption,
+figcaption,
+del,
+u,
+inputChoices,
+result,
+item,
+.octicon,
+pre,
+dfn,
+sup,
+msg
+{
+  color: orange !important;
+  fill: orange !important;
+  -webkit-text-fill-color: orange !important;
+}
+
+
+/*Généralement utilisé pour zone où écrire email, texte par défaut indiquant "Votre email", ou exemple@email.adresse*/
+input::placeholder,
+textarea::placeholder
+{
+  color: orange !important;
+  -webkit-text-fill-color: orange !important;
+  opacity: unset !important;
+}
+
+
+
+*::selection
+{
+  background-color: rgba(255, 127, 0, .2) !important;
+  color: orange !important;
+  -webkit-text-fill-color: orange !important;
+}
+
+
+
